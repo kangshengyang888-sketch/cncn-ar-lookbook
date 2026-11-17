@@ -100,7 +100,7 @@ h1{font-size:clamp(40px,11vw,58px)}.question{margin:5px 0 13px}.notes-inner{bord
         <video class="ar-video" id="ar-video" autoplay muted playsinline aria-label="实时前置相机"></video>
         <canvas class="ar-layer" id="ar-layer" aria-hidden="true"></canvas>
         <div class="ar-guide" id="ar-guide" aria-hidden="true" hidden></div>
-        <span class="ar-tag">CNCN · 正面上身预览</span>
+        <span class="ar-tag">CNCN · 本地融合试穿</span>
       </div>
       <figcaption class="ar-caption">
         <span id="ar-caption" role="status"></span>
@@ -212,6 +212,6 @@ setScene(selected);
 const upcoming = new Image();
 upcoming.src = scenes.dinner.image;
 </script>
-<script src="ar.js"></script>
+<script src="ar.js?v=local-blend"></script>
 </body>
 </html>
